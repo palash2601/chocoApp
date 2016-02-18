@@ -1,0 +1,20 @@
+<!-- <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'>
+	  <div class="grid-item" ng-repeat="item in [1,2,3,4,5,6,7,8,9,10]" my-repeat-directive>
+	  		{{item}}
+	  </div>
+	  
+</div> -->
+
+<div class="coming-soon container">
+	<div class="parda"></div>
+	<h1>Coming Soon</h1>
+	<div class="grid container">
+		
+		  <div class="grid-item {{item.masonryClass}}" ng-repeat="item in chocoData">
+		  		<img class="img-width img-responsive {{item.masonryClass}}" ng-src="{{ item.img }}" alt="An Image">
+		  </div>
+		  <div ng-init="fireEvent()"></div>
+
+	</div>
+	<div class="contact"><strong>Contact : +91 7354277077</strong></div>
+</div>
