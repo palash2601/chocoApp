@@ -22,7 +22,7 @@ angular.module('CtrlModule',['DataService'])
 			columnWidth: 375			
 		  });
 			});
-        }, 50);
+        }, 3000);
 
     };
 }])
